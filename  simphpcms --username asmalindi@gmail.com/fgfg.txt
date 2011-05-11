@@ -1,0 +1,42 @@
+INSERT INTO  `cms_demo`.`section` (
+`sec_id` ,
+`sec_title` ,
+`sec_orders` ,
+`sec_despription`
+)
+VALUES (
+NULL ,  'Home',  '1',  'home'
+), (
+NULL ,  'Article',  '2',  'posts '
+);
+
+cat_id	int(11)			No	None	AUTO_INCREMENT	 	 	 	 	 	 	
+	cat_title	varchar(100)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	cat_despription
+	
+	section
+	Field	Type	Collation	Attributes	Null	Default	Extra	Action
+	sec_id	int(11)			No	None	AUTO_INCREMENT	 	 	 	 	 	 	
+	sec_title	varchar(12)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	sec_orders	tinyint(2)			No	None		 	 	 	 	 	 	
+	sec_despription
+	
+	users
+	id	int(15)			No	None	AUTO_INCREMENT	 	 	 	 	 	 	
+	full_name	varchar(25)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	username	varchar(25)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	password	varchar(100)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	email	varchar(30)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	date	date			No	None		 	 	 	 	 	 	
+	random	varchar(20)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	activated	tinyint(1)			No	None	
+	
+	post
+		post_id	int(11)			No	None	AUTO_INCREMENT	 	 	 	 	 	 	
+	post_title	varchar(150)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	post_author	varchar(100)	latin1_swedish_ci		No	None		 	 	 	 	 	 	
+	postcontent	text	latin1_swedish_ci		No	None		 	 	 				
+	cat_id
+	
+	Lorem ipsum
+	
